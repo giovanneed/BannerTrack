@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ViewBanner.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    ViewBanner *banner = [[ViewBanner alloc]initWithFrame:CGRectMake(self.view.frame.size.width/2,self.view.frame.size.height/2 , 115, 38) andAppKey:@"1212112"];
+    
+    [self.view addSubview:banner];
+    
+    
+
 }
 
 - (void)didReceiveMemoryWarning {

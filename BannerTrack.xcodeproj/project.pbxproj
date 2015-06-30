@@ -14,6 +14,7 @@
 		C739F9E81B346F6C00E7DF47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C739F9E71B346F6C00E7DF47 /* Images.xcassets */; };
 		C739F9EB1B346F6C00E7DF47 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C739F9E91B346F6C00E7DF47 /* LaunchScreen.xib */; };
 		C739F9F71B346F6D00E7DF47 /* BannerTrackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C739F9F61B346F6D00E7DF47 /* BannerTrackTests.m */; };
+		C739FA021B346FEA00E7DF47 /* ViewBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C739FA011B346FEA00E7DF47 /* ViewBanner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C739F9F01B346F6D00E7DF47 /* BannerTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BannerTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C739F9F51B346F6D00E7DF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C739F9F61B346F6D00E7DF47 /* BannerTrackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerTrackTests.m; sourceTree = "<group>"; };
+		C739FA001B346FEA00E7DF47 /* ViewBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewBanner.h; sourceTree = "<group>"; };
+		C739FA011B346FEA00E7DF47 /* ViewBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewBanner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				C739F9E71B346F6C00E7DF47 /* Images.xcassets */,
 				C739F9E91B346F6C00E7DF47 /* LaunchScreen.xib */,
 				C739F9DA1B346F6C00E7DF47 /* Supporting Files */,
+				C739FA001B346FEA00E7DF47 /* ViewBanner.h */,
+				C739FA011B346FEA00E7DF47 /* ViewBanner.m */,
 			);
 			path = BannerTrack;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C739FA021B346FEA00E7DF47 /* ViewBanner.m in Sources */,
 				C739F9E31B346F6C00E7DF47 /* ViewController.m in Sources */,
 				C739F9E01B346F6C00E7DF47 /* AppDelegate.m in Sources */,
 				C739F9DD1B346F6C00E7DF47 /* main.m in Sources */,
